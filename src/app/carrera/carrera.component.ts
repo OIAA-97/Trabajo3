@@ -11,8 +11,8 @@ export class CarreraComponent implements OnInit {
 
   carrera : any = [
 
-    new Carrera(1, 'Tecnologias de la informacion y comunicacion'),
-    new Carrera(2, 'Desarrollo de negocios')
+    new Carrera(1, 'Tecnologias de la informacion y comunicacion')
+    
 
   ];
 
