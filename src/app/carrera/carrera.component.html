@@ -1,1 +1,14 @@
-<p>carrera works!</p>
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+        <th>iD</th>
+        <th>Nombre</th>
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let carrera of carrera">
+        <td>{{carrera.id}}</td>
+        <td>{{carrera.nombre}}</td>
+    </tr>
+    </tbody>
+
+</table>
